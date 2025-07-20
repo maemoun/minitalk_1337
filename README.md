@@ -2,7 +2,8 @@ _______________________________________________________________________
 📡 MINITALK :
 _______________________________________________________________________
 
-The Minitalk project is a common assignment at 42/1337 school, and it focuses on inter-process communication (IPC) using Unix signals.
+The Minitalk project is a common assignment at 42/1337 school,
+and it focuses on inter-process communication (IPC) using Unix signals.
 
 _______________________________________________________________________
 📡 What Is Minitalk ?:
@@ -74,8 +75,9 @@ _____________________________________________________________________
 🔧 How It Works :
 _____________________________________________________________________
 
---------------------🧠 Encoding Characters -------------------------
-Each character is 8 bits (1 byte). For example:
+🧠 Encoding Characters :
+
+ Each character is 8 bits (1 byte). For example:
 
         'H' = 01001000
 
@@ -86,9 +88,9 @@ So the client sends:
 
 Send 8 signals per character.
 
---------------------🧠 Receiving Characters-------------------------
+🧠 Receiving Characters :
 
-The server:
+ The server:
 
   * Handles each signal with a signal handler.
 
