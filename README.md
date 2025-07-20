@@ -83,8 +83,8 @@ _____________________________________________________________________
 
 So the client sends:
 
-        SIGUSR1 → bit 0 
-        SIGUSR2 → bit 1  
+        SIGUSR1 → bit 0 .
+        SIGUSR2 → bit 1 .
 
 Send 8 signals per character.
 
